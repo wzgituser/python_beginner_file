@@ -194,3 +194,6 @@ from classes import test_func as test
 print(math)
 print(random.randint(1,10))
 test()
+
+def test_for_git_commit():
+    print('i will comit this')

@@ -36,29 +36,33 @@
 # print(monster.health)
 # mage.attack(monster)
 # print(monster.health)
-class Human:
-    def __init__(self,health):
-        self.health = health
+# class Human:
+#     def __init__(self,health):
+#         self.health = health
 
-class Warior:
-    def __init__(self,health):
-        self.health = health
+# class Warior:
+#     def __init__(self,health):
+#         self.health = health
        
-    def attack(self):
-        print('attack')
+#     def attack(self):
+#         print('attack')
 
-class Barbarian:
-    def __init__(self, health):
-        self.health = health
-    def attack(self):
-        print('attack')
-        return 
+# class Barbarian:
+#     def __init__(self, health):
+#         self.health = health
+#     def attack(self):
+#         print('attack')
+#         return 
 
-warior = Warior(50)
-barbarian = Barbarian(100)
-warior.attack()
-barbarian.attack()
+# warior = Warior(50)
+# barbarian = Barbarian(100)
+# warior.attack()
+# barbarian.attack()
 
 
-def test_func():
-    print('it was imported')
+# def test_func():
+#     print('it was imported')
+
+from ninja import test_for_git_commit 
+
+test_for_git_commit()
