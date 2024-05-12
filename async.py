@@ -2,6 +2,7 @@ import asyncio
 
 async def main():
     print('a')
+    await asyncio.sleep(5)
     await func_two()
     print('b')
 
